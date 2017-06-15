@@ -1,0 +1,227 @@
+body {
+	font-size: 20px;
+	font-family: "Maven Pro", sans-serif;
+	height: 100%;
+	background-color: rgba(208, 82, 0, 0.8);
+}
+
+/*
+================================================================
+			Header - Menu and Logo areas
+================================================================
+*/
+
+#nav-menu {
+	border: none;
+	background-color: #D05200;
+	margin: 0;
+	z-index: 0;
+}
+
+#header-menu{
+	padding-top: 0.5em;
+	background-color: #D05200;
+}
+
+#menu-button {
+	float: right;
+	border: none;
+	background-color: #D05200;
+}
+
+#menu-button:hover {
+	background-color: #D05200;
+	border: solid 1px white;
+}
+
+#imagine-logo {
+	max-width: 7em;
+	max-height: 1.8em;
+	float: left;
+	margin-top: 0.25em;
+}
+
+@media(min-width: 768px){
+	#imagine-logo{
+		margin-top: 0;
+	}
+}
+
+#main-menu {
+	background-color: #D05200;
+	border: none;
+	text-align: center;
+}
+
+#main-menu li a {
+	color: white;
+}
+
+#main-menu li a:hover, #main-menu li a:focus {
+	background-color: #732D00;
+}
+
+/*
+================================================================
+		Main - The Content and Informational areas
+================================================================
+*/
+
+.img-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.sentence {
+	/*positioning an important phrase*/
+	position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    text-align: center;
+    color: #D05200;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+
+@media(min-width: 768px){
+	.img-area {
+		height: 35em;
+	}
+
+	
+
+	.background-image-1, .background-image-2, 
+	.background-image-3, .background-image-4 {
+    /* height: 100%; */
+    position: relative;
+    opacity: 0.75;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+	}
+}
+
+.background-image-1 {
+	background-image: url("../imagens/imagem1.jpg");
+}
+
+.background-image-2 {
+	background-image: url("../imagens/imagem2.jpg");
+}
+
+.background-image-3 {
+	background-image: url("../imagens/imagem3.jpg");
+}
+
+.background-image-4 {
+	background-image: url("../imagens/imagem4.jpg");
+}
+
+.background-image-1, .background-image-2, 
+.background-image-3, .background-image-4 { 
+    /* The image used */
+    
+
+    /* Full height *//*
+    height: 100%; */
+
+    position: relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+}
+
+/*
+=======================
+
+=======================
+*/
+
+ .paragraph-text{
+	color: white;
+	padding: 1em 2em 1em 2em;
+	z-index: 1;
+}
+
+@media(min-width: 768px){
+	.paragraph-text{
+		padding: 2em 0.5em 2em 0.5em;
+		width: 35em;
+	}
+
+
+	
+}
+
+@media(min-width: 1300px){
+	.paragraph-text{
+		padding: 2em 0.5em 2em 0.5em;
+		width: 60em;
+	}
+	
+}
+
+@media(min-width: 1700px){
+	.paragraph-text{
+		padding: 2em 0.5em 2em 0.5em;
+		width: 80em;
+	}
+	
+}
+
+/*
+=======================
+
+=======================
+*/
+
+.formulario {
+	color: white;
+}
+
+
+/*
+=======================
+
+=======================
+*/
+
+.filtro {
+	display: flex;
+	justify-content: space-between;
+	background-color: #D05200;
+}
+
+.midias {
+	float: left;
+	margin-top: 0.5em;
+}
+
+.midias > ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.midias > ul > a {
+	margin: 0 1em;
+	color: white;
+}
+
+.institucional {
+	float: right;
+}
+
+.institucional > ul > a {
+	color: white;
+}
