@@ -247,8 +247,11 @@ body {
 
 @media(min-width: 768px){
 	.filtro {
-		display: flex;
-		justify-content: space-between;
-		background-color: #D05200;
-	}	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	/*text-align: none;*/
+	justify-content: space-between;
+	background-color: #D05200;
+}	
 }
