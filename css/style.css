@@ -203,6 +203,9 @@ body {
 	color: white;
 }
 
+#enviar {
+	margin-left: 1em;
+}
 
 /*
 =======================
@@ -212,6 +215,9 @@ body {
 
 .filtro {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 	justify-content: space-between;
 	background-color: #D05200;
 }
@@ -237,4 +243,12 @@ body {
 
 .institucional > ul > a {
 	color: white;
+}
+
+@media(min-width: 768px){
+	.filtro {
+		display: flex;
+		justify-content: space-between;
+		background-color: #D05200;
+	}	
 }
