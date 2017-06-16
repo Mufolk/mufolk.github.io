@@ -77,9 +77,9 @@ body {
 .sentence {
 	/*positioning an important phrase*/
 	position: absolute;
-    left: 25%;
+    left: 10%;
     top: 30%;
-    width: 50%;
+    width: 75%;
     text-align: center;
     color: #D05200;
     padding: 1em;
@@ -101,7 +101,7 @@ body {
     /* height: 100%; */
     position: relative;
     opacity: 0.75;
-    /* background-attachment: fixed; */
+     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,9 +130,9 @@ body {
     /* The image used */
     
 
-    /* Full height *//*
-    height: 100%; */
-
+    /* Full height */
+    height: 25em; 
+	overflow-y: hidden;	
     position: relative;
     opacity: 0.75;
     background-attachment: fixed;
