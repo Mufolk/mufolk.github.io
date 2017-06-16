@@ -107,6 +107,19 @@ body {
     background-size: cover;
     max-height: 100%;
 	}
+
+	.sentence {
+	/*positioning an important phrase*/
+	position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    text-align: center;
+    color: #D05200;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,0.7);
+	}
 }
 
 .background-image-1 {
